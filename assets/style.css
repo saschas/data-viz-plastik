@@ -1,0 +1,46 @@
+body {
+    margin:0;
+    background-color:#ecece4;
+}
+
+*{box-sizing:border-box;}
+
+/* defined colors
+
+#d73d6c
+#c8a784
+#e9d5af
+#ecece4
+#3f2c26
+#fcf9f4
+
+*/
+
+section{
+  height: 100vh;
+  width: 100vw;
+}
+
+.headline_container{
+  position: relative;
+  width:80%;
+  heigth: auto;
+  margin: auto;
+  }
+
+h1{
+  color:#3f2c26;
+  font-family: 'Playball', cursive;
+  font-size: 72px;
+  text-align: center;
+}
+
+svg
+{}
+
+h2{
+  color:#3f2c26;
+  font-family: 'Playball', cursive;
+  font-size: 72px;
+  text-align: center;
+}
