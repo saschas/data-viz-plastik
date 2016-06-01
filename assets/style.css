@@ -23,16 +23,38 @@ section{
 
 .headline_container{
   position: relative;
-  width:80%;
+  width: 80%;
+  top: 20%;
   height: auto;
   margin: auto;
   }
 
 h1{
-  color:#3f2c26;
+  color:#fcf9f4;
   font-family: 'Handlee', cursive;
-  font-size: 72px;
+  font-size: 52px;
   text-align: center;
+}
+
+/*_____________________________ pink speech bubble______________*/
+
+.bubble {
+  background-color: #d73d6c;
+      color: #fff;
+      width: 70%;
+      height: 20%;
+      margin: auto;
+      padding: -19px 49px;
+      position: relative;
+    }
+
+.bubble:after, .bubble:before {
+  border-bottom: 43px solid transparent;
+  border-left: 51px solid #d73d6c;
+  bottom: -43px;
+  content: '';
+  position: absolute;
+  right: 131px
 }
 
 svg{
@@ -79,7 +101,7 @@ svg{
   height: auto;
   margin: auto;
   position: absolute;
-  left: 38%;
+  left: 30%;
 }
 
 
