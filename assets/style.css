@@ -38,16 +38,20 @@ h1{
 /*_____________________________ pink speech bubble______________*/
 
 .bubble {
-  background-color: #d73d6c;
+      background-color: #d73d6c;
       color: #fff;
       width: 70%;
-      height: 20%;
       margin: auto;
-      padding: -19px 49px;
       position: relative;
+      margin-top: 10vh;
     }
 
-.bubble:after, .bubble:before {
+.bubble h1 {
+  margin: 0;
+  padding: .5em;
+}
+
+.bubble:after {
   border-bottom: 43px solid transparent;
   border-left: 51px solid #d73d6c;
   bottom: -43px;
