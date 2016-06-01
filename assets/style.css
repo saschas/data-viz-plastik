@@ -66,8 +66,6 @@ svg{
   width: 35%;
   height: auto;
   position: absolute;
-  left: 1%;
-  top: 30%;
   margin-left: 2%;
 }
 
@@ -76,8 +74,7 @@ svg{
   height: auto;
   margin: auto;
   position: absolute;
-  left: 1%;
-  top: 142%;
+
 }
 
 .graphics_becher_unten{
@@ -87,14 +84,7 @@ svg{
   position: absolute;
 }
 
-.graphics_ton{
-  width: 40%;
-  height: auto;
-  margin: auto;
-  position: absolute;
-  left: 34%;
-  top: 290%;
-}
+
 
 .graphics_becher{
   width: 40%;
@@ -110,17 +100,15 @@ svg{
   height: auto;
   margin: auto;
   position: absolute;
-  left: 68%;
-  top: 48%;
+
 }
 
-.graphics_becher_waage{
+.graphics_waage{
   width: 30%;
   height: auto;
   margin: auto;
   position: absolute;
-  left: -5%;
-  top: 88%;
+
 }
 
 h2{
