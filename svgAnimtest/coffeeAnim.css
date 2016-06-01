@@ -9,13 +9,13 @@
 
 @keyframes wiggleEven{
 	0%{
-    transform: translateX(-50px);
+    transform: translateX(-30px);
 	}
 	50%{
-    transform: translateX(50px);
+    transform: translateX(30px);
 	}
 	100%{
-    transform: translateX(-50px);
+    transform: translateX(-30px);
 	}
 }
 
