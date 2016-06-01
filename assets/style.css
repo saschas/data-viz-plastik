@@ -307,6 +307,30 @@ h2{
  }
 
 
+/*_______Alternativen________*/
+
+.container_Alternativen_l{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.container_Alternativen_l img{
+  max-width: 400px;
+}
+
+.container_Alternativen_r{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.container_Alternativen_r img{
+  max-width: 500px;
+
+/*_______Footer________*/
+
+
 footer {
  background-color: #3f2c26 ;
  width: 100vw;
