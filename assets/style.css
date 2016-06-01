@@ -124,14 +124,17 @@ h4{
  vertical-align: middle;
 }
 
+
+
 .bestandteile_container_beschreibung {
  display: inline-block;
  width: 60%;
  vertical-align: middle;
 }
 
-.graphics_deckel img,
-.graphics_becher_unten img{
+
+
+.bestandteile_container_graphics img{
  width: 100%;
  display: block;
 }
