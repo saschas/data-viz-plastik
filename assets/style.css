@@ -69,11 +69,20 @@ svg{
   margin-left: 2%;
 }
 
+/*___________________________________________bestandteile_______________________________________*/
+
+.container_bestandteile{
+  width:100%;
+  position:relative;
+  height:80%;
+}
+
 .graphics_deckel{
   width: 40%;
   height: auto;
   margin: auto;
   position: absolute;
+  top: 26%;
 
 }
 
@@ -82,6 +91,7 @@ svg{
   height: auto;
   margin: auto;
   position: absolute;
+  top: 26%;
 }
 
 
