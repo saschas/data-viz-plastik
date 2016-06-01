@@ -133,12 +133,9 @@ h4{
 }
 
 
-.graphics_becher{
-  width: 40%;
-  height: auto;
-  margin: auto;
-  position: absolute;
-  left: 30%;
+.graphics_becher img {
+  height: 60vh;
+  margin-left: 20%;
 }
 
 
