@@ -24,7 +24,8 @@ section{
 .headline_container{
   position: relative;
   width: 80%;
-  height: 20%;
+  top: 20%;
+  height: auto;
   margin: auto;
   }
 
@@ -38,20 +39,16 @@ h1{
 /*_____________________________ pink speech bubble______________*/
 
 .bubble {
-      background-color: #d73d6c;
+  background-color: #d73d6c;
       color: #fff;
       width: 70%;
+      height: 20%;
       margin: auto;
+      padding: -19px 49px;
       position: relative;
-      margin-top: 10vh;
     }
 
-.bubble h1 {
-  margin: 0;
-  padding: .5em;
-}
-
-.bubble:after {
+.bubble:after, .bubble:before {
   border-bottom: 43px solid transparent;
   border-left: 51px solid #d73d6c;
   bottom: -43px;
@@ -74,72 +71,37 @@ svg{
 
 /*___________________________________________bestandteile_______________________________________*/
 
-h4{
-  color:#fcf9f4;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 16px;
-  text-align: center;
-}
-
-.bubble-arrow {
-  color: #fff;
-  width: 80%;
-  margin-left: 80px;
-  margin-bottom: 10px;
-  position: relative;
-}
-
-.bubble-arrow-1 {
-  margin-bottom: 40px;
-}
-
-.bubble-arrow h4 {
-  margin: 0;
-  background-color: #d73d6c;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.bubble-arrow h4:before {
-  content: '';
-  background-color: #d73d6c;
-  display: block;
-  width: 27px;
-  height: 27px;
-  position: absolute;
-  top: 6px;
-  left: -14px;
-  transform: rotate(45deg);
-}
-
 .container_bestandteile{
   width:100%;
   position:relative;
   height:80%;
 }
 
-.bestandteile_container_graphics {
-  display: inline-block;
-  width: 30%;
-  vertical-align: middle;
+.graphics_deckel{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: 26%;
+
 }
 
-.bestandteile_container_beschreibung {
-  display: inline-block;
-  width: 60%;
-  vertical-align: middle;
-}
-
-.graphics_deckel img,
-.graphics_becher_unten img{
-  width: 100%;
-  display: block;
+.graphics_becher_unten{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: 26%;
 }
 
 
-.graphics_becher img {
-  height: 60vh;
-  margin-left: 20%;
+
+.graphics_becher{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  left: 30%;
 }
 
 /*______________________________________________Entsorgung___________________________________________*/
@@ -211,27 +173,60 @@ h4{
 /*__________________________xy________________*/
 
 h2{
-  color: #3f2c26;
-      font-family: 'Handlee', cursive;
-      font-size: 60px;
-      text-align: center;
-      line-height: 120%;
-      margin-top: 0.75em;
+  color:#3f2c26;
+  font-family: 'Handlee', cursive;
+  font-size: 60px;
+  text-align: center;
+  line-height: 120px;
+  margin_top:5%;
 }
 
 /*_______Countdown_________*/
 
-@import url(http://fonts.googleapis.com/css?family=Lato:100,400);
-#the-final-countdown {
-  background: #333;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-  color: #eee;
-  text-shadow: 1px 1px 5px black;
-  padding: 1rem 0;
-  font-size: 3rem;
-  border: 1px solid #000;
+
+.container_countdown{
+  width:30%;
 }
+
+p{
+  color:#000;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0.1px;
+}
+
+#the-final-countdown p{
+  font-size:50px;
+  color:#fff;
+  margin:0 0 0 5px;
+
+
+}
+
+#the-final-countdown {
+  background: #3f2c26;
+  color:#fff;
+  width:25vh;
+  height:10vh;
+  margin-left:20vh;
+  margin-top:30vh;
+
+}
+
+#becher-bis-jetzt p{
+  font-size:50px;
+  color:#fff;
+  margin:5px 0 0 5px;
+}
+
+#becher-bis-jetzt{
+  background:#d73d6c;
+  color:#fff;
+  width:25vh;
+  height:10vh;
+  margin-left:20vh;
+ }
 
 footer {
   background-color: #3f2c26;
@@ -239,13 +234,7 @@ footer {
   height: 100vh;
 }
 
-p{
-  color:#ecece4;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 12px;
-  text-align: left;
-  letter-spacing: 0.1px;
-}
+
 
 .footer {
   position: absolute;
