@@ -1,0 +1,32 @@
+.coffeeRow:nth-child(even) {
+    animation: wiggleEven 5s infinite;
+}
+
+.coffeeRow:nth-child(odd) {
+    animation: wiggleOdd 5s infinite;
+}
+
+
+@keyframes wiggleEven{
+	0%{
+    transform: translateX(-50px);
+	}
+	50%{
+    transform: translateX(50px);
+	}
+	100%{
+    transform: translateX(-50px);
+	}
+}
+
+@keyframes wiggleOdd{
+	0%{
+    transform: translateX(50px);
+	}
+	50%{
+    transform: translateX(-50px);
+	}
+	100%{
+    transform: translateX(50px);
+	}
+}
