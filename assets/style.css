@@ -24,23 +24,115 @@ section{
 .headline_container{
   position: relative;
   width:80%;
-  heigth: auto;
+  height: auto;
   margin: auto;
   }
 
 h1{
   color:#3f2c26;
-  font-family: 'Playball', cursive;
+  font-family: 'Handlee', cursive;
   font-size: 72px;
   text-align: center;
 }
 
-svg
-{}
+svg{
+  width:100%;
+  height: auto;
+}
+
+.graphics_germany{
+  width: 35%;
+  height: auto;
+  position: absolute;
+  left: 1%;
+  top: 30%;
+  margin-left: 2%;
+}
+
+.graphics_deckel{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  left: 1%;
+  top: 142%;
+}
+
+.graphics_becher_unten{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+}
+
+.graphics_ton{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  left: 34%;
+  top: 290%;
+}
+
+.graphics_becher{
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  left: 38%;
+}
+
+
+.graphics_auto{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  left: 68%;
+  top: 48%;
+}
+
+.graphics_becher_waage{
+  width: 30%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  left: -5%;
+  top: 88%;
+}
 
 h2{
   color:#3f2c26;
-  font-family: 'Playball', cursive;
-  font-size: 72px;
+  font-family: 'Handlee', cursive;
+  font-size: 60px;
   text-align: center;
+  line-height: 120px;
+  margin_top:5%;
+}
+
+
+
+footer {
+  background-color: #3f2c26;
+  width: 100vw;
+  height: 100vh;
+}
+
+p{
+  color:#ecece4;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0.1px;
+}
+
+.footer {
+  position: absolute;
+  left: 3%;
+  margin:auto;
+  width:80%;
+  height: auto;
+  color:#ecece4;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 14px;
 }
