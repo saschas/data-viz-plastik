@@ -132,6 +132,11 @@ h2{
 
 /*_______Countdown_________*/
 
+
+.container_countdown{
+  width:30%;
+}
+
 p{
   color:#000;
   font-family: 'Alegreya Sans', sans-serif;
