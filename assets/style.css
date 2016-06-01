@@ -144,64 +144,64 @@ h4{
 
 /*______________________________________________Entsorgung___________________________________________*/
 .container_bestandteile{
- width:100%;
- position:relative;
- height:80%;
+  width:100%;
+  position:relative;
+  height:80%;
 }
 
 .entsorgung_container_graphics{
- width: 100%;
- height: auto;
- display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .entsorgung_container_beschreibung{
- display: block;
- width: 100%;
- height: auto;
- display: inline-block;
+  display: block;
+  width: 100%;
+  height: auto;
+  display: inline-block;
 }
 
 .graphics_waage{
- width: 80%;
- margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 .graphics_waage img {
- width: 100%;
+  width: 100%;
 }
 
 
 .speech_bubbles_total{
- width:75%;
- height:10%;
- margin:auto;
- position:relative;
+  width:75%;
+  height:10%;
+  margin:auto;
+  position:relative;
 }
 
 
 .speech-bubble-1{
- background-color: #d73d6c ;
- width: 25%;
- padding: 0.1em;
- margin: 5%;
- float: left;
+  background-color: #d73d6c;
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
 }
 
 .speech-bubble-2{
- background-color: #d73d6c ;
- width: 10%;
- padding: 0.1em;
- margin: 5%;
- float: left;
+  background-color: #d73d6c;
+  width: 10%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
 }
 
 .speech-bubble-3{
- background-color: #d73d6c ;
- width: 25%;
- padding: 0.1em;
- margin: 5%;
- float: left;
+  background-color: #d73d6c;
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
 }
 
 
