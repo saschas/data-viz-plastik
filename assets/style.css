@@ -71,6 +71,48 @@ svg{
 
 /*___________________________________________bestandteile_______________________________________*/
 
+<<<<<<< Updated upstream
+=======
+
+h4{
+  color:#fcf9f4;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bubble-arrow {
+  color: #fff;
+  width: 80%;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.bubble-arrow-1 {
+  margin-bottom: 40px;
+}
+
+.bubble-arrow h4 {
+  margin: 0;
+  background-color: #d73d6c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bubble-arrow h4:before {
+  content: '';
+  background-color: #d73d6c;
+  display: block;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 6px;
+  left: -14px;
+  transform: rotate(45deg);
+}
+
+>>>>>>> Stashed changes
 .container_bestandteile{
   width:100%;
   position:relative;
@@ -179,6 +221,41 @@ h2{
   text-align: center;
   line-height: 120px;
   margin_top:5%;
+}
+
+/*_______Coffee Animation_________*/
+
+.coffeeRow:nth-child(even) {
+    animation: wiggleEven 5s infinite;
+}
+
+.coffeeRow:nth-child(odd) {
+    animation: wiggleOdd 5s infinite;
+}
+
+
+@keyframes wiggleEven{
+	0%{
+    transform: translateX(-30px);
+	}
+	50%{
+    transform: translateX(30px);
+	}
+	100%{
+    transform: translateX(-30px);
+	}
+}
+
+@keyframes wiggleOdd{
+	0%{
+    transform: translateX(50px);
+	}
+	50%{
+    transform: translateX(-50px);
+	}
+	100%{
+    transform: translateX(50px);
+	}
 }
 
 /*_______Countdown_________*/
