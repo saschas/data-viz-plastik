@@ -142,22 +142,73 @@ h4{
   margin-left: 20%;
 }
 
+/*______________________________________________Entsorgung___________________________________________*/
+.container_bestandteile{
+  width:100%;
+  position:relative;
+  height:80%;
+}
 
-.graphics_auto{
-  width: 60%;
+.entsorgung_container_graphics{
+  width: 100%;
   height: auto;
-  margin: auto;
-  position: absolute;
+  display: block;
+}
 
+.entsorgung_container_beschreibung{
+  display: block;
+  width: 100%;
+  height: auto;
+  display: inline-block;
 }
 
 .graphics_waage{
-  width: 30%;
-  height: auto;
+  width: 80%;
   margin: auto;
-  position: absolute;
-
 }
+
+.graphics_waage img {
+  width: 100%;
+}
+
+
+.speech_bubbles_total{
+  width:75%;
+  height:10%;
+  margin:auto;
+  position:relative;
+}
+
+
+.speech-bubble-1{
+  background-color: #d73d6c;
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
+}
+
+.speech-bubble-2{
+  background-color: #d73d6c;
+  width: 10%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
+}
+
+.speech-bubble-3{
+  background-color: #d73d6c;
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
+}
+
+
+
+
+
+/*__________________________xy________________*/
 
 h2{
   color: #3f2c26;
