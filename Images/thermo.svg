@@ -12,30 +12,30 @@
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
 <svg version="1.1"
-	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="4007.1816 1.953125e-03" i:rulerOrigin="-4007.1816 840.5322" i:pageBounds="4007.1816 1.953125e-03 4829.0898 -840.5322"
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="4166.4956 -65.21" i:rulerOrigin="-4166.4956 693.21" i:pageBounds="4166.4956 -65.21 4530.4956 -693.21"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="821.9px" height="840.5px" viewBox="0 0 821.9 840.5" enable-background="new 0 0 821.9 840.5"
-	 xml:space="preserve">
+	 x="0px" y="0px" width="364px" height="628px" viewBox="0 0 364 628" enable-background="new 0 0 364 628" xml:space="preserve">
 <metadata>
-	<variableSets  xmlns="&ns_vars;">
+	<variableSets  xmlns="http://ns.adobe.com/Variables/1.0/">
 		<variableSet  locked="none" varSetName="binding1">
 			<variables></variables>
-			<v:sampleDataSets  xmlns:v="&ns_vars;" xmlns="&ns_custom;"></v:sampleDataSets>
+			<v:sampleDataSets  xmlns:v="http://ns.adobe.com/Variables/1.0/" xmlns="http://ns.adobe.com/GenericCustomNamespace/1.0/">
+				</v:sampleDataSets>
 		</variableSet>
 	</variableSets>
 </metadata>
-<g id="thermo" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#000000000000">
-	<g id="HHSKDm_1_" display="none">
+<g id="thermo" i:knockout="Off" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#000000000000">
+	<g id="HHSKDm_2_" i:knockout="Off" display="none">
 		
-			<switch id="HHSKDm" i:objectNS="&ns_imrep;" i:objectType="replaceable-image" transform="matrix(1 0 0 1 75.8174 83.374)" display="inline">
-			<foreignObject overflow="visible" requiredExtensions="&ns_imrep;" x="0" y="0" width="600" height="600">
+			<switch id="HHSKDm" i:objectNS="&ns_imrep;" i:objectType="replaceable-image" transform="matrix(0.9983 0 0 0.9983 -83.4971 18.1616)" display="inline" enable-background="new    ">
+			<foreignObject overflow="visible" requiredExtensions="&ns_imrep;" x="0" y="0" width="601" height="601">
 				
-					<imageReplacement  xmlns="&ns_imrep;" x="0" y="0" width="600" height="600" placementMethod="ratio" align="center" valign="middle" refWidth="600" refHeight="600">
+					<imageReplacement  xmlns="&ns_imrep;" x="0" y="0" width="601" height="601" placementMethod="ratio" align="center" valign="middle" refWidth="601" refHeight="601">
 				</imageReplacement>
-				<x:targetRef  xlink:href="#HHSKDm_2_" />
+				<x:targetRef  xlink:href="#HHSKDm_3_" />
 			</foreignObject>
 			
-				<image overflow="visible" width="600" height="600" id="HHSKDm_2_" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+				<image overflow="visible" width="601" height="601" id="HHSKDm_3_" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
 EAMCAwYAAA4zAAAglQAAL1P/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
 Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
 JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAlkCWQMBIgACEQEDEQH/
@@ -247,28 +247,31 @@ ZHQgiM+0Y3ZFNYNg1sRinb/YmoFRRsbY6GhPTKYMwdcRxgmxQwgFGFrbCFHQmpaJTqn0ga4a5AFN
 OSJ2WtXcj2lSodpHkdcE/SoIJyIsap9jO0N2lNxdrioNsF3wUEUY42N3ruROzs2tvJTGYDXBBmCI
 IwHI4xad6gcE5EWN3obkY3Wx04oVCP2qZi4466LHiOBXC6bNhRTt9gQOA7ODBBgvebkKdIQA27Tr
 uaJb4Iuc2E79iKCEVFQ0ZWcjT+rYuLqDxH6RcuFo4Rlr6BERmpsgTtC4qb4ZFQk5RFMywmo/id4L
-/E7wX+J3gv8AHDfJcxa31oGo+OQEFJkTiVIQ/wCrP//Z" i:knockout="Off">
+/E7wX+J3gv8AHDfJcxa31oGo+OQEFJkTiVIQ/wCrP//Z" i:isolated="yes" i:knockout="Off">
 			</image>
 		</switch>
 	</g>
-	<path i:knockout="Off" fill="#F2D6B0" d="M232.8,460.5c0,0,32-3,14.5-47s-44-126.5-29-142s27-12,34.2-7s9.8,7,9.8,7l1.2-55
-		c0,0-19.7,4.5-37.2,12s-57.5,28-53,67.5s16.5,103.5,38.5,142.5C225.6,462.9,229.8,461.1,232.8,460.5z"/>
-	<path i:knockout="Off" fill="#432821" d="M266.5,304.7h233.3c0,0-20.7,319.9-24.2,349.3c-4,33.3-175.2,40.7-175.9,0
-		C299,613.3,266.5,304.7,266.5,304.7z"/>
-	<path i:knockout="Off" fill="#D5A983" d="M267.5,207.3c-20.3,42.7-10.3,68.7,0,97.3s226.3,27.4,232,0s17-54,0-97.3
-		S287.8,164.7,267.5,207.3z"/>
-	<path i:knockout="Off" fill="#F2D6B0" d="M267.5,218c1.7-43.3,0.3-56,3-75.3s50-67.3,150.7-59.3c80.1,6.4,78.3,53.3,78.3,53.3
-		s3.7,60,0,84.7C495.2,250.4,265.8,261.3,267.5,218z"/>
-	<path i:knockout="Off" fill="#432821" d="M281.3,146c6-3,63-36.4,114.5-36.7c55.3-0.3,75.3,20.3,81.3,26s10.7,15.6,10.7,15.6
-		L281.3,146z"/>
-	<path i:knockout="Off" fill="#D5A983" d="M227.8,262.7c0,0-53.3-13.3-36,64s36,134,44,132.7s20-14,14-36c-6-22-25.3-71.3-29.9-95.3
-		s-4.8-31.8-3.4-46C217.3,273.5,227.8,262.7,227.8,262.7z"/>
-	<path i:knockout="Off" fill="#D5A983" d="M337.8,130c65.2-11.8,109.5,0.5,133.5,11c23.5,10.3,15,10.5,15,10.5s-27.5,26-115,20.5
-		c-85.4-5.4-105.5-21.9-84-29C316.7,133.3,298.9,137.1,337.8,130z"/>
-	<ellipse i:knockout="Off" fill="#432821" cx="393.8" cy="146" rx="25.3" ry="5.3"/>
-	<polygon i:knockout="Off" opacity="0.15" fill="#D5A983" points="277.2,320 304.7,327.5 325.8,662.7 308.5,656.7 	"/>
-	<polygon i:knockout="Off" opacity="0.15" fill="#D5A983" points="335.6,332.5 367.3,336 370.8,668.7 345.8,666.7 	"/>
-	<polygon i:knockout="Off" opacity="5.000000e-02" fill="#D5A983" points="358.2,332.5 389.9,336 393.4,668.7 368.4,666.7 	"/>
-	<polygon i:knockout="Off" opacity="0.3" fill="#D5A983" points="301.5,326.9 335.8,332.7 345.8,666.7 325.5,662.4 	"/>
+	<path fill="#F2D6B0" d="M73.5,395.3c0,0,32-3,14.5-47s-44-126.5-29-142s27-12,34.2-7s9.8,7,9.8,7l1.2-55c0,0-19.7,4.5-37.2,12
+		s-57.5,28-53,67.5s16.5,103.5,38.5,142.5C66.3,397.7,70.5,395.9,73.5,395.3z"/>
+	<path fill="#432821" d="M107.2,239.5h233.3c0,0-20.7,319.9-24.2,349.3c-4,33.3-175.2,40.7-175.9,0
+		C139.7,548.1,107.2,239.5,107.2,239.5z"/>
+	<path fill="#D5A983" d="M108.2,142.1c-20.3,42.7-10.3,68.7,0,97.3s226.3,27.4,232,0c5.7-27.4,17-54,0-97.3
+		C323.2,98.8,128.5,99.5,108.2,142.1z"/>
+	<path fill="#F2D6B0" d="M108.2,152.8c1.7-43.3,0.3-56,3-75.3c2.7-19.3,50-67.3,150.7-59.3c80.1,6.4,78.3,53.3,78.3,53.3
+		s3.7,60,0,84.7C335.9,185.2,106.5,196.1,108.2,152.8z"/>
+	<path fill="#432821" d="M122,80.8c6-3,63-36.4,114.5-36.7c55.3-0.3,75.3,20.3,81.3,26c6,5.7,10.7,15.6,10.7,15.6L122,80.8z"/>
+	<path fill="#D5A983" d="M68.5,197.5c0,0-53.3-13.3-36,64c17.3,77.3,36,134,44,132.7c8-1.3,20-14,14-36c-6-22-25.3-71.3-29.9-95.3
+		s-4.8-31.8-3.4-46C58,208.3,68.5,197.5,68.5,197.5z"/>
+	<path fill="#D5A983" d="M178.5,64.8C243.7,53,288,65.3,312,75.8c23.5,10.3,15,10.5,15,10.5s-27.5,26-115,20.5
+		c-85.4-5.4-105.5-21.9-84-29C157.4,68.1,139.6,71.9,178.5,64.8z"/>
+	<ellipse fill="#432821" cx="234.5" cy="80.8" rx="25.3" ry="5.3"/>
+	<polygon i:isolated="yes" i:knockout="Off" opacity="0.15" fill="#D5A983" enable-background="new    " points="117.9,254.8 
+		145.4,262.3 166.5,597.5 149.2,591.5 	"/>
+	<polygon i:isolated="yes" i:knockout="Off" opacity="0.15" fill="#D5A983" enable-background="new    " points="176.3,267.3 
+		208,270.8 211.5,603.5 186.5,601.5 	"/>
+	<polygon i:isolated="yes" i:knockout="Off" opacity="5.000000e-02" fill="#D5A983" enable-background="new    " points="
+		198.9,267.3 230.6,270.8 234.1,603.5 209.1,601.5 	"/>
+	<polygon i:isolated="yes" i:knockout="Off" opacity="0.3" fill="#D5A983" enable-background="new    " points="142.2,261.7 
+		176.5,267.5 186.5,601.5 166.2,597.2 	"/>
 </g>
 </svg>
