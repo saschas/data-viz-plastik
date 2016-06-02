@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="2248.4004 1.953125e-03" i:rulerOrigin="-2248.4004 797.1934" i:pageBounds="2248.4004 1.953125e-03 2840.4004 -797.1934"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="592px" height="797.2px" viewBox="0 0 592 797.2" enable-background="new 0 0 592 797.2"
+	 xml:space="preserve">
+<metadata>
+	<variableSets  xmlns="http://ns.adobe.com/Variables/1.0/">
+		<variableSet  locked="none" varSetName="binding1">
+			<variables></variables>
+			<v:sampleDataSets  xmlns:v="http://ns.adobe.com/Variables/1.0/" xmlns="http://ns.adobe.com/GenericCustomNamespace/1.0/">
+				</v:sampleDataSets>
+		</variableSet>
+	</variableSets>
+</metadata>
+<g id="&#xD6;l" i:knockout="Off" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F00FFFFFFFF">
+	<path fill="none" stroke="#ECEBD4" stroke-width="5" stroke-miterlimit="10" d="M289,73.1c0,0,231,161,253.6,383
+		c26.7,260.1-157,311.3-254.1,311.3c-148.3,0-315-151.3-219.4-337.5C174.4,225,289,73.1,289,73.1z"/>
+	<path i:isolated="yes" i:knockout="Off" opacity="0.4" fill="#ECEBD4" enable-background="new    " d="M309.2,156.7
+		c0,0,235,255.6,126.1,355.7c-50,45.9-102.2-56.3-80-97.8C393.5,343.4,309.2,156.7,309.2,156.7z"/>
+	<path i:isolated="yes" i:knockout="Off" fill="#FFFFFF" enable-background="new    " d="M307.7,159.8c0,0,152.8,198.6,130.4,246.1
+		c-22.2,47.6-53.3,17.1-42.9-22.2C402.2,357.4,307.7,159.8,307.7,159.8z"/>
+</g>
+</svg>
