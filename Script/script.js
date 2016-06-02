@@ -14,6 +14,6 @@ setInterval(function time(){
   if((sec + '').length == 1){
         sec = '0' + sec;
   }
-  jQuery('#the-final-countdown p').html(hours+':'+min+':'+sec);
-  jQuery('#becher-bis-jetzt p').html(amount);
+  jQuery('#the-final-countdown p').html(hours+':'+min+':'+sec+' Uhr');
+  jQuery('#becher-bis-jetzt p').html(amount+' Becher');
 }, 1000);
