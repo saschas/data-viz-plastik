@@ -1,6 +1,8 @@
 body {
    margin:0;
    background-color:#ecece4 ;
+   max-width: 100vw;
+   overflow-x: hidden;
 }
 
 *{box-sizing:border-box;
@@ -39,7 +41,8 @@ a{
 
 h1{
  color:#fcf9f4 ;
- font-family: 'Playball';
+ font-family: 'Shadows Into Light Two', cursive;
+ letter-spacing: 5px;
  font-size: 52px;
  text-align: center;
 }
@@ -79,18 +82,18 @@ svg{
 .graphics_germany{
  width: 30%;
  height: auto;
- position: absolute;
  margin-left: 2%;
  margin-top:5px;
  margin-bottom:30px;
  display: inline-block;
+ vertical-align: middle;
 }
 
 /*___________________________________________bestandteile_______________________________________*/
 
 h4{
  color:#fcf9f4 ;
- font-family: 'Alegreya Sans', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
  font-size: 16px;
  text-align: center;
  text-decoration: none;
@@ -125,6 +128,8 @@ h4{
 
 .bubble-arrow h4 {
  margin: 0;
+ height: 39px;
+ line-height: 22px;
  background-color: #d73d6c ;
  padding-top: 10px;
  padding-bottom: 10px;
@@ -210,7 +215,7 @@ h4{
 
 .entsorgung_text{
 color:#fcf9f4 ;
-font-family: 'Alegreya Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 font-size: 16px;
 text-align: center;
 position: relative;
@@ -314,7 +319,7 @@ position: relative;
 
 .recycling_bubble_text{
   color: #fcf9f4;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   text-align: center;
   position: relative;
@@ -414,16 +419,12 @@ h2{
   font-size:50px;
   color:#fff;
   margin:0 0 0 10px;
-
-
 }
-
 
 #the-final-countdown {
   background: #3f2c26;
   color:#fff;
   width:100%;
-  height:10vh;
 
 }
 #becher-bis-jetzt p{
@@ -436,7 +437,6 @@ h2{
   background:#d73d6c;
   color:#fff;
   width:100%;
-  height:10vh;
  }
 
 /*_______Popover________*/
@@ -488,7 +488,7 @@ footer {
 
 p{
  color:#ecece4 ;
- font-family: 'Alegreya Sans', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
  font-size: 12px;
  text-align: left;
  letter-spacing: 0.1px;
@@ -502,6 +502,6 @@ p{
  width:80%;
  height: auto;
  color:#ecece4 ;
- font-family: 'Alegreya Sans', sans-serif;
+ font-family: 'Josefin Sans', sans-serif;
  font-size: 14px;
 }
