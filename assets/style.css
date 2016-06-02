@@ -31,7 +31,7 @@ section{
 
 h1{
  color:#fcf9f4 ;
- font-family: 'Handlee', cursive;
+ font-family: 'Playball';
  font-size: 52px;
  text-align: center;
 }
@@ -114,6 +114,14 @@ h4{
  left: -14px;
  transform: rotate(45deg);
 }
+
+.bubble-arrow:hover h4,
+.bubble-arrow:hover h4:before {
+  transition:1s;
+  cursor:pointer;
+  background-color: #BA1E52;
+}
+
 
 .container_bestandteile{
  width:100%;
@@ -207,17 +215,19 @@ position: relative;
   width: 100%;
 }
 
-
 .speech_bubbles_total{
   width:75%;
   margin:auto;
   position:relative;
 }
 
-.speech-bubble:hover .entsorgung_text,
+/* hover wird wahrscheinlich nicht benötigt*/
+/*.speech-bubble:hover .entsorgung_text,
 .speech-bubble:hover .entsorgung_text:before {
-  background-color: blue;
-}
+  transition:1s;
+  cursor:pointer;
+  background-color: #BA1E52;
+}*/
 
 .speech-bubble-1{
   width: 25%;
