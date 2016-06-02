@@ -18,3 +18,15 @@ setInterval(function time(){
   jQuery('#the-final-countdown p').html(hours+':'+min+':'+sec+' Uhr');
   jQuery('#becher-bis-jetzt p').html(amount+' Becher');
 }, 1000);
+
+/*fade in bubble*/
+
+$(".recycling_bubble").hide();
+
+$('.graphics_flamme').on('inview', function(event, isInView) {
+  if (isInView) {
+        setTimeout('$(".recycling_bubble").fadeIn(500);', 1000);
+  } else {
+          $(".recycling_bubble").fadeOut();
+  }
+});

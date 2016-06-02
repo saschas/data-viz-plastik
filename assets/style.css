@@ -184,8 +184,8 @@ text-align: center;
 position: relative;
  margin: 0;
  background-color: #d73d6c ;
- padding-top: 10px;
- padding-bottom: 10px;
+ padding-top: 18px;
+ padding-bottom: 18px;
  max-width: 680px;
  margin-top: -40px;
  margin-left: auto;
@@ -252,20 +252,23 @@ position: relative;
 /*______________________________________Recycling________________________________________*/
 
 .container_Recycling{
-  width:100%;
+  width:80%;
   position:relative;
-  height:80%;
+  height:auto;
+  margin:auto;
+
 }
 
 .recycling_beschreibung{
   display: inline-block;
-  width: 40%;
+  width: 50%;
   vertical-align: middle;
   }
 
 .graphics_flamme{
   display: inline-block;
-  width: 50%;
+  width: 30%;
+  margin-left: 12%;
   vertical-align: middle;
   }
 
@@ -276,22 +279,33 @@ position: relative;
 
 
 .recycling_bubble_text{
-  color:#fcf9f4 ;
+  color: #fcf9f4;
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 16px;
   text-align: center;
   position: relative;
-   margin: 0;
-   background-color: #d73d6c ;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   max-width: 680px;
-   margin-top: -40px;
-   margin-left: auto;
-   margin-right: auto;
+  margin: 0;
+  background-color: #d73d6c;
+  padding: 30px;
+  max-width: 680px;
+  margin-top: -160px;
+  margin-left: 20%;
+  margin-right: auto;
 }
 
 
+.recycling_bubble_text:before{
+ content: '';
+ background-color: #d73d6c ;
+ display: block;
+ width: 26px;
+ height: 26px;
+ position: absolute;
+ bottom: -13px;
+ left: 48px;
+ z-index: 5;
+ transform: rotate(45deg);
+}
 
 
 
