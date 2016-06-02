@@ -98,13 +98,25 @@ h4{
 .bubble-arrow {
  color: #fff;
  width: 80%;
- margin-left: 80px;
+ margin-left: 75px;
  margin-bottom: 10px;
  position: relative;
 }
 
 .bubble-arrow-1 {
  margin-bottom: 40px;
+ margin-top:0;
+ width:30%;
+}
+.bubble-arrow-2 {
+ margin-bottom: 40px;
+ width:30%;
+
+}
+.bubble-arrow-3 {
+ margin-bottom: 40px;
+ width:30%;
+
 }
 
 .bubble-arrow h4 {
@@ -138,6 +150,7 @@ h4{
  width:100%;
  position:relative;
  height:80%;
+ margin-left:15%;
 }
 
 .bestandteile_container_graphics {
@@ -152,6 +165,7 @@ h4{
  display: inline-block;
  width: 60%;
  vertical-align: middle;
+
 }
 
 
@@ -169,7 +183,7 @@ h4{
 
 /*______________________________________________Entsorgung___________________________________________*/
 
-.container_bestandteile{
+.container_entsorgung{
   width:100%;
   position:relative;
   height:80%;
