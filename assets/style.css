@@ -35,9 +35,21 @@ section{
 
 h1{
  color:#fcf9f4 ;
- font-family: 'Playball';
+font-family: 'Shadows Into Light Two', cursive;
+letter-spacing:5px;
  font-size: 52px;
  text-align: center;
+}
+
+h2{
+ color: #3f2c26 ;
+     font-family: 'Handlee', cursive;
+     font-size: 60px;
+     text-align: center;
+     line-height: 120%;
+     margin-top: 2em;
+     margin-bottom: 1em;
+
 }
 
 /*_____________________________ pink speech bubble______________*/
@@ -210,8 +222,8 @@ text-align: center;
 position: relative;
  margin: 0;
  background-color: #d73d6c ;
- padding-top: 18px;
- padding-bottom: 18px;
+ padding-top: 10px;
+ padding-bottom: 10px;
  max-width: 680px;
  margin-top: -40px;
  margin-left: auto;
@@ -238,7 +250,11 @@ position: relative;
 }
 
 .graphics_waage img {
-  width: 100%;
+  width: 70%;
+  margin-left:12%;
+  margin-right:12%;
+  margin-bottom:10%;
+
 }
 
 .speech_bubbles_total{
@@ -247,6 +263,13 @@ position: relative;
   position:relative;
 }
 
+/* hover wird wahrscheinlich nicht benötigt*/
+/*.speech-bubble:hover .entsorgung_text,
+.speech-bubble:hover .entsorgung_text:before {
+  transition:1s;
+  cursor:pointer;
+  background-color: #BA1E52;
+}*/
 
 .speech-bubble-1{
   width: 25%;
@@ -273,79 +296,70 @@ position: relative;
   margin: 5%;
   float: left;
 }
-
-
-/*______________________________________Recycling________________________________________*/
-
-.container_Recycling{
-  width:80%;
-  position:relative;
-  height:auto;
-  margin:auto;
-
-}
-
-.recycling_beschreibung{
-  display: inline-block;
-  width: 50%;
-  vertical-align: middle;
-  }
-
-.graphics_flamme{
-  display: inline-block;
-  width: 30%;
-  margin-left: 12%;
-  vertical-align: middle;
-  }
-
-.graphics_flamme img{
-  width: 100%;
-  display: block;
-    }
-
-
-.recycling_bubble_text{
-  color: #fcf9f4;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 16px;
-  text-align: center;
-  position: relative;
-  margin: 0;
+/*
+.speech-bubble-1{
   background-color: #d73d6c;
-  padding: 30px;
-  max-width: 680px;
-  margin-top: -160px;
-  margin-left: 20%;
-  margin-right: auto;
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
 }
 
 
-.recycling_bubble_text:before{
+.speech-bubble-1:after {
+  content: '';
+  background-color: #d73d6c ;
+  display: block;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  top: 6px;
+  left: -14px;
+  transform: rotate(45deg);
+}
+
+.speech-bubble-2{
+  background-color: #d73d6c;
+  width: 10%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
+}
+
+.speech-bubble-2:after {
+ border-bottom: 43px solid transparent;
+ border-left: 51px solid #d73d6c ;
+ bottom: -43px;
  content: '';
- background-color: #d73d6c ;
- display: block;
- width: 26px;
- height: 26px;
  position: absolute;
- bottom: -13px;
- left: 48px;
- z-index: 5;
- transform: rotate(45deg);
+ right: 131px
 }
 
 
+.speech-bubble-3{
+  background-color: #d73d6c;
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
+}
+
+.speech-bubble-3:after {
+ border-bottom: 43px solid transparent;
+ border-left: 51px solid #d73d6c ;
+ bottom: -43px;
+ content: '';
+ position: absolute;
+ right: 131px
+}
+*/
+
+/*_____Recycling___*/
 
 
 /*__________________________xy________________*/
 
-h2{
- color: #3f2c26 ;
-     font-family: 'Handlee', cursive;
-     font-size: 60px;
-     text-align: center;
-     line-height: 120%;
-     margin-top: 0.75em;
-}
+
 
 /*_______Countdown_________*/
 
@@ -433,13 +447,6 @@ h2{
 
 /*_______Popover________*/
 
-.btn,
-.btn:hover,
-.btn:focus,
-.btn:active,
-.btn:active:focus {
-  outline: 0;
-}
 
 /*_______Alternativen________*/
 
