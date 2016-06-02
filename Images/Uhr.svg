@@ -12,26 +12,24 @@
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
 <svg version="1.1"
-	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="5045.2861 1.953125e-03" i:rulerOrigin="-5045.2861 840.5322" i:pageBounds="5045.2861 1.953125e-03 5867.1943 -840.5322"
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="5176.6001 -139.21" i:rulerOrigin="-5176.6001 697.21" i:pageBounds="5176.6001 -139.21 5730.6001 -697.21"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="821.9px" height="840.5px" viewBox="0 0 821.9 840.5" enable-background="new 0 0 821.9 840.5"
-	 xml:space="preserve">
+	 x="0px" y="0px" width="554px" height="558px" viewBox="0 0 554 558" enable-background="new 0 0 554 558" xml:space="preserve">
 <metadata>
-	<variableSets  xmlns="&ns_vars;">
+	<variableSets  xmlns="http://ns.adobe.com/Variables/1.0/">
 		<variableSet  locked="none" varSetName="binding1">
 			<variables></variables>
-			<v:sampleDataSets  xmlns:v="&ns_vars;" xmlns="&ns_custom;"></v:sampleDataSets>
+			<v:sampleDataSets  xmlns:v="http://ns.adobe.com/Variables/1.0/" xmlns="http://ns.adobe.com/GenericCustomNamespace/1.0/">
+				</v:sampleDataSets>
 		</variableSet>
 	</variableSets>
 </metadata>
-<g id="Uhr" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#FFFF66660000">
-	<circle i:knockout="Off" fill="#F2D6B0" cx="411" cy="420.3" r="245.7"/>
-	<g>
-		
-			<line i:knockout="Off" fill="none" stroke="#432821" stroke-width="6" stroke-miterlimit="10" x1="411" y1="420.3" x2="411" y2="242.6"/>
-		
-			<line i:knockout="Off" fill="none" stroke="#432821" stroke-width="6" stroke-miterlimit="10" x1="484.3" y1="497.6" x2="411" y2="420.3"/>
+<g id="Uhr" i:knockout="Off" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#FFFF66660000">
+	<circle fill="#F2D6B0" cx="279.7" cy="281.1" r="245.7"/>
+	<g i:knockout="Off">
+		<line fill="none" stroke="#432821" stroke-width="6" stroke-miterlimit="10" x1="279.7" y1="281.1" x2="279.7" y2="103.4"/>
+		<line fill="none" stroke="#432821" stroke-width="6" stroke-miterlimit="10" x1="353" y1="358.4" x2="279.7" y2="281.1"/>
 	</g>
-	<circle i:knockout="Off" fill="none" stroke="#432821" stroke-width="6" stroke-miterlimit="10" cx="411" cy="420.3" r="261.6"/>
+	<circle fill="none" stroke="#432821" stroke-width="6" stroke-miterlimit="10" cx="279.7" cy="281.1" r="261.6"/>
 </g>
 </svg>
