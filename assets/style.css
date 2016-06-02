@@ -149,6 +149,7 @@ h4{
 }
 
 /*______________________________________________Entsorgung___________________________________________*/
+
 .container_bestandteile{
   width:100%;
   position:relative;
@@ -165,14 +166,41 @@ h4{
   display: block;
   width: 100%;
   height: auto;
-  display: inline-block;
 }
 
-.graphics_waage{
-  max-width: 680px;
-  margin-top: -40px;
-  margin-left: auto;
-  margin-right: auto;
+.entsorgung_text{
+color:#fcf9f4 ;
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 16px;
+text-align: center;
+position: relative;
+ margin: 0;
+ background-color: #d73d6c ;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ max-width: 680px;
+ margin-top: -40px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.entsorgung_text:before {
+ content: '';
+ background-color: #d73d6c ;
+ display: block;
+ width: 26px;
+ height: 26px;
+ position: absolute;
+ top: -13px;
+ left: calc(50% - 13px);
+ z-index: 5;
+ transform: rotate(45deg);
+}
+
+.entsorgung_text span {
+  position: relative;
+  z-index: 10;
 }
 
 .graphics_waage img {
@@ -182,12 +210,41 @@ h4{
 
 .speech_bubbles_total{
   width:75%;
-  height:10%;
   margin:auto;
   position:relative;
 }
 
+.speech-bubble:hover .entsorgung_text,
+.speech-bubble:hover .entsorgung_text:before {
+  background-color: blue;
+}
 
+.speech-bubble-1{
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
+}
+
+
+.speech-bubble-2{
+    width: 10%;
+    padding: 0.1em;
+    margin: 5%;
+    float: left;
+}
+
+.speech-bubble-2 .entsorgung_text:before {
+  display: none;
+}
+
+.speech-bubble-3{
+  width: 25%;
+  padding: 0.1em;
+  margin: 5%;
+  float: left;
+}
+/*
 .speech-bubble-1{
   background-color: #d73d6c;
   width: 25%;
@@ -243,6 +300,7 @@ h4{
  position: absolute;
  right: 131px
 }
+*/
 
 /*_____Recycling___*/
 
