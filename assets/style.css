@@ -24,6 +24,10 @@ section{
   weight: 100vw;
 }
 
+a{
+  text-decoration: none;
+}
+
 .headline_container{
  position: relative;
  width: 80%;
@@ -73,11 +77,13 @@ svg{
 }
 
 .graphics_germany{
- width: 35%;
+ width: 30%;
  height: auto;
  position: absolute;
  margin-left: 2%;
-
+ margin-top:5px;
+ margin-bottom:30px;
+ display: inline-block;
 }
 
 /*___________________________________________bestandteile_______________________________________*/
