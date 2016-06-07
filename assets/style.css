@@ -3,7 +3,25 @@ body {
    background-color:#ecece4 ;
    max-width: 100vw;
    overflow-x: hidden;
+   background-image: url('../Images/KAFFEEFLECKEN.png');
+   z-index: -1;
+   /*opacity: 0.5;*/
+   background-size: 115%;
+   background-repeat:no-repeat;
+   background-position: top center;
 }
+
+body:before{
+  content: '';
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+
+}
+
 
 *{box-sizing:border-box;
   text-decoration: none;
@@ -16,18 +34,25 @@ body {
 #d73d6c
 #c8a784
 #e9d5af
-#ecece4
+#ecece
 #3f2c26
 #fcf9f4
 
 */
 
 section{
-  weight: 100vw;
+  width: 100vw;
 }
 
 a{
   text-decoration: none;
+}
+
+
+/*___________________________section 1_______________________________________*/
+
+section .section01{
+  height:100vh;
 }
 
 .headline_container{
@@ -39,24 +64,25 @@ a{
  padding-bottom:.25em;
  }
 
+
 h1{
  color:#fcf9f4 ;
- font-family: 'Shadows Into Light Two', cursive;
- letter-spacing: 5px;
- font-size: 52px;
+ font-family: 'Amatic SC', cursive;
+ letter-spacing: 3px;
+ font-size: 65px;
  text-align: center;
 }
 
-/*_____________________________ pink speech bubble______________*/
+/*_______ pink speech bubble______________*/
 
 .bubble {
      background-color: #d73d6c ;
-     color: #fff;
-     /*width: 70%;*/
+     color: #ecece4;
      margin: auto;
      position: relative;
      margin-top: 10vh;
-     max-width:60%;
+     max-width: 50%;
+     min-width: 45%;
    }
 
 .bubble h1 {
@@ -74,20 +100,119 @@ h1{
  right: 131px
 }
 
+.graphics_becher {
+  animation: fade_in 2s ease;
+  transition:.3s;
+}
+
+@keyframes fade_in{
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 svg{
  width:100%;
  height: auto;
 }
 
+/*__________________________________section 2_countdown__________________________*/
+
 .graphics_germany{
- width: 30%;
+ width: 28%;
  height: auto;
- margin-left: 2%;
+ margin-left: 5%;
  margin-top:5px;
  margin-bottom:30px;
  display: inline-block;
  vertical-align: middle;
 }
+
+
+/*_______germany map animation_________*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Lato:100,400);*/
+
+.animated-germany-map {
+  display:inline-block;
+  width: 50%;
+  vertical-align: middle;
+  max-height: 80vh;
+  margin-top: 5vh;
+}
+
+.coffeeRow:nth-child(even) {
+    animation: wiggleEven 5s infinite;
+}
+
+.coffeeRow:nth-child(odd) {
+    animation: wiggleOdd 5s infinite;
+}
+
+
+@keyframes wiggleEven{
+	0%{
+    transform: translateX(-30px);
+	}
+	50%{
+    transform: translateX(30px);
+	}
+	100%{
+    transform: translateX(-30px);
+	}
+}
+
+@keyframes wiggleOdd{
+	0%{
+    transform: translateX(50px);
+	}
+	50%{
+    transform: translateX(-50px);
+	}
+	100%{
+    transform: translateX(50px);
+	}
+}
+
+/*_______Countdown_________*/
+
+.container_content{
+  margin-left:13%;
+}
+
+.container_countdown{
+  width:40%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5vw;
+  padding-right: 2vw;
+}
+#the-final-countdown p{
+  font-size:45px;
+  color:#fff;
+  margin:0 0 0 10px;
+  padding:.1em;
+}
+
+#the-final-countdown {
+  background: #3f2c26;
+  color:#fff;
+  width:100%;
+}
+
+#becher-bis-jetzt p{
+  font-size:45px;
+  color:#fff;
+  margin:5px 0 0 10px;
+  padding:.1em;
+}
+
+#becher-bis-jetzt{
+  background:#d73d6c;
+  color:#fff;
+  width:100%;
+ }
+
 
 /*___________________________________________bestandteile_______________________________________*/
 
@@ -189,6 +314,7 @@ h4{
 .graphics_becher img {
  height: 60vh;
  margin-left: 20%;
+ margin-top: 5%;
 }
 
 
@@ -196,9 +322,9 @@ h4{
 /*______________________________________________Entsorgung___________________________________________*/
 
 .container_entsorgung{
-  width:100%;
-  position:relative;
-  height:80%;
+  width: 95%;
+  margin: auto;
+  position: relative;
 }
 
 .entsorgung_container_graphics{
@@ -247,17 +373,22 @@ position: relative;
   position: relative;
   z-index: 10;
 }
+.entsorgung_container_graphics{
+  width:70%;
+  margin:auto;
+}
 
 .graphics_waage img {
-  width: 70%;
-  margin-left:15%;
-  margin-right:15%;
+  width: 100%;
+  margin-top: -10%;
+  margin-bottom: 3%;
 }
 
 .speech_bubbles_total{
-  width:75%;
-  margin:auto;
-  position:relative;
+  width: 85%;
+  margin: auto;
+  margin-left: 10%;
+  position: relative;
 }
 
 
@@ -291,7 +422,7 @@ position: relative;
 /*______________________________________Recycling________________________________________*/
 
 .container_Recycling{
-  width:80%;
+  width:70%;
   position:relative;
   height:auto;
   margin:auto;
@@ -321,7 +452,7 @@ position: relative;
   color: #fcf9f4;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
   position: relative;
   margin: 0;
   background-color: #d73d6c;
@@ -349,95 +480,197 @@ position: relative;
 
 
 
-/*__________________________xy________________*/
+/*__________________________zerfall________________*/
+
+.container_zerfall{
+  width:80%;
+  margin:auto;
+}
+
+.zerfall_beschreibung{
+  display: inline-block;
+  width: 35%;
+  vertical-align: middle;
+  }
+
+
+.graphics_Stammbaum{
+    display: inline-block;
+    width: 30%;
+    margin-left: 12%;
+    vertical-align: middle;
+    }
+
+
+.graphics_Stammbaum img{
+  width:100%;
+  }
+
+
+.zerfall_bubble_text{
+  color: #fcf9f4;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  margin: 0;
+  background-color: #d73d6c;
+  padding: 30px;
+  max-width: 680px;
+  margin-top: -160px;
+  margin-left: 20%;
+  margin-right: auto;
+}
+
+
+.zerfall_bubble_text:before{
+ content: '';
+ background-color: #d73d6c ;
+ display: block;
+ width: 26px;
+ height: 26px;
+ position: absolute;
+ bottom: -13px;
+ left: 48px;
+ z-index: 5;
+ transform: rotate(45deg);
+}
+
+/*_______Alternativen______*/
+
+
+.container_alternativen{
+  width: 70%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 15%;
+  margin-top: 12%;
+}
+
+.container-alternativen01{
+width:50%;
+display: inline-block;
+}
+
+.container_alternativen_l{
+  display: inline-block;
+  width: 40%;
+  margin-left: 12%;
+  vertical-align: middle;
+  margin-top:5%;
+}
+.container_alternativen_l img{
+  width:100%;
+}
+
+.alternativen_beschreibung {
+width: 100%;
+position: absolute;
+display: none;
+left: 0;
+width: 44%;
+}
+
+.alternativen_bubble_text{
+  color: #fcf9f4;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  margin: 0;
+  background-color: #d73d6c;
+  padding: 30px;
+  /* max-width: 680px; */
+  margin-top: -160px;
+  /* margin-left: 20%; */
+  margin-right: auto;
+}
+
+
+.alternativen_bubble_text:before{
+ content: '';
+ background-color: #d73d6c ;
+ display: block;
+ width: 26px;
+ height: 26px;
+ position: absolute;
+ bottom: -13px;
+ left: 48px;
+ z-index: 5;
+ transform: rotate(45deg);
+}
+/*_02__*/
+
+.container-alternativen02{
+  width:50%;
+  /*margin-top:50%;*/
+  display:inline-block;
+  float:right;
+}
+
+.container_alternativen_r{
+  display: inline-block;
+  width: 40%;
+  margin-left: 12%;
+  vertical-align: middle;
+  margin-top:5%;
+}
+
+
+.container_alternativen_r img{
+  width:100%;
+}
+
+.alternativen_beschreibung02{
+  display: inline-block;
+  width:50%;
+  vertical-align: middle;
+  position:absolute
+}
+
+
+
+
+.alternativen_bubble_text02{
+  color: #fcf9f4;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  margin: 0;
+  background-color: #d73d6c;
+  padding: 30px;
+  max-width: 680px;
+  margin-top: -160px;
+  margin-left: 20%;
+  margin-right: auto;
+}
+
+
+.alternativen_bubble_text02:before{
+ content: '';
+ background-color: #d73d6c ;
+ display: block;
+ width: 26px;
+ height: 26px;
+ position: absolute;
+ bottom: -13px;
+ left: 48px;
+ z-index: 5;
+ transform: rotate(45deg);
+}
+
+
 
 h2{
- color: #3f2c26 ;
-     font-family: 'Handlee', cursive;
+     color: #3f2c26;
+     font-family: 'Amatic SC', cursive;
      font-size: 60px;
      text-align: center;
      line-height: 120%;
-     margin-top: 0.75em;
+     margin-top: 3em;
 }
 
-/*_______Countdown_________*/
-
-@import url(http://fonts.googleapis.com/css?family=Lato:100,400);
-
-.animated-germany-map {
-  display:inline-block;
-  width: 50%;
-  vertical-align: middle;
-  max-height: 80vh;
-  margin-top: 5vh;
-}
-
-.coffeeRow:nth-child(even) {
-    animation: wiggleEven 5s infinite;
-}
-
-.coffeeRow:nth-child(odd) {
-    animation: wiggleOdd 5s infinite;
-}
-
-
-@keyframes wiggleEven{
-	0%{
-    transform: translateX(-30px);
-	}
-	50%{
-    transform: translateX(30px);
-	}
-	100%{
-    transform: translateX(-30px);
-	}
-}
-
-@keyframes wiggleOdd{
-	0%{
-    transform: translateX(50px);
-	}
-	50%{
-    transform: translateX(-50px);
-	}
-	100%{
-    transform: translateX(50px);
-	}
-}
-
-/*_______Countdown_________*/
-
-
-.container_countdown{
-  width:35%;
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 5vw;
-  padding-right: 2vw;
-}
-#the-final-countdown p{
-  font-size:50px;
-  color:#fff;
-  margin:0 0 0 10px;
-}
-
-#the-final-countdown {
-  background: #3f2c26;
-  color:#fff;
-  width:100%;
-
-}
-#becher-bis-jetzt p{
-  font-size:50px;
-  color:#fff;
-  margin:5px 0 0 10px;
-}
-
-#becher-bis-jetzt{
-  background:#d73d6c;
-  color:#fff;
-  width:100%;
- }
 
 /*_______Popover________*/
 
@@ -479,29 +712,266 @@ h2{
 
 /*_______Footer________*/
 
+h3{
+  padding-top:0.75em;
+  color: #ecece4;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+}
+
+h3 span {
+text-transform:uppercase;
+padding-top:0.75em;
+}
 
 footer {
- background-color: #3f2c26 ;
+ background-color: #3f2c26;
  width: 100vw;
- height: 100vh;
+ padding-bottom:200px;
+ padding-top:30px;
+}
+
+.footer a{
+  text-decoration: none;
+}
+a:link {
+  color: #ecece4;
+}
+a:visited {
+  color: #ecece4;
 }
 
 p{
  color:#ecece4 ;
  font-family: 'Josefin Sans', sans-serif;
- font-size: 12px;
+ font-size: 14px;
  text-align: left;
  letter-spacing: 0.1px;
-  text-decoration: none;
+ text-decoration: none;
 }
-
 .footer {
- position: absolute;
- left: 3%;
+ position: relative;
  margin:auto;
- width:80%;
+ width:90%;
  height: auto;
  color:#ecece4 ;
  font-family: 'Josefin Sans', sans-serif;
  font-size: 14px;
+}
+
+.quellen a {
+  display: block;
+  color:#ecece4;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0.1px;
+  line-height:130%;
+  font color: aliceblue;
+  text-decoration: none;
+}
+
+.toggle{
+  cursor: pointer;
+}
+.toggle:hover{
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition:.3s;
+}
+.toggle_content{
+  display:none;
+}
+
+.icons img{
+  width:35%;
+  height:auto;
+  padding-right:10%;
+  margin-top: -3%;
+}
+.icons img:hover{
+  transition:1s ease;
+  opacity: 0.2;
+}
+.table p{
+  color: #ecece4;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+}
+.table{
+  width:100%;
+  border-top:1px solid #ecece4;
+  display:table;
+  margin:auto;
+  padding-top:2%;
+}
+.cell{
+  vertical-align: bottom;
+  width: 60%;
+  height: auto;
+  float: left;
+}
+.cell_3{
+  padding: 0 0% 0 4%;
+  vertical-align: middle;
+  width: 20%;
+  height: auto;
+  float: right
+}
+.icons{
+  display: inline-block;
+  text-align: right;
+}
+
+
+/*______________________breakpoints________________________________*/
+
+@media screen and (max-width:750px){
+
+.graphics_becher img {
+      height: 60vh;
+      margin-top: 5%;
+    margin-left:0;}
+
+h1{
+  font-size:30px;
+}
+
+.bubble {
+     max-width: 80%;
+   }
+
+.bubble h1 {
+ margin: 0;
+ padding: .6em;
+}
+
+h2{
+  font-size:30px;
+}
+
+.container_content{
+  margin:0;
+}
+
+.container_countdown {
+    width: 100vw;
+    display: inline-block;
+    padding:0;}
+
+.graphics_germany {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 25px;}
+
+#the-final-countdown p {
+    font-size: 25px;
+    text-align: center;}
+
+#becher-bis-jetzt p{
+    font-size: 25px;
+    text-align: center;}
+
+.bestandteile_container_graphics {
+      display: block;
+      width: 70%;
+      margin: auto;}
+
+.bestandteile_container_beschreibung {
+  display: inline-block;
+  width: 100vw;
+  margin: auto;}
+
+.bubble-arrow{
+  width:100vw;
+  margin:auto;
+}
+
+.bubble-arrow-1 {
+     margin-bottom: 40px;
+     width:100%;
+     text-decoration: none;
+    }
+
+    .bubble-arrow-2 {
+     margin-bottom: 40px;
+     width:100%;
+    }
+
+    .bubble-arrow-3 {
+     margin-bottom: 40px;
+     width:100%;
+    }
+
+.bubble-arrow h4:before{
+  display:none;
+}
+.container_bestandteile{
+  margin-left:0;
+}
+
+.entsorgung_text span {
+    font-size: 14px;}
+
+.entsorgung_container_graphics {
+    width: 90%}
+
+.speech_bubbles_total {
+        width: 100%;
+        margin: auto;
+        margin-top: 8%;
+        position: relative;}
+
+.graphics_flamme {
+            display: block;
+            width: 70%;
+            margin: auto;
+            margin-top: 30%;}
+
+
+.recycling_beschreibung {
+                display: block;
+                width: 100%;
+                position: absolute;
+                top: 20%;}
+
+.graphics_Stammbaum {
+    display: inline-block;
+    width: 70%;
+    margin: auto;
+    margin-top: 20%;}
+
+
+.zerfall_beschreibung {
+        display: block;
+        position: relative;
+        /* top: 528%; */
+        /* left: -11%; */
+        /* margin-top: -20%; */
+        width: 90%;
+        margin: auto;}
+
+.container_alternativen_l {
+          display: inline-block;
+          width: 70%;
+          margin:auto;}
+
+
+.container_alternativen_l {
+          display: inline-block;
+          width: 70%;
+          float:left;
+          margin:auto;}
+
+.alternativen_bubble{
+              display:none;
+          }
+
+.alternativen_bubble02{
+    display:none;
+}
+
 }

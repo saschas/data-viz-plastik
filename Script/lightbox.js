@@ -1,16 +1,4 @@
-/*!
- * Lightbox v2.8.1
- * by Lokesh Dhakar
- *
- * More info:
- * http://lokeshdhakar.com/projects/lightbox2/
- *
- * Copyright 2007, 2015 Lokesh Dhakar
- * Released under the MIT license
- * https://github.com/lokesh/lightbox2/blob/master/LICENSE
- */
 
-// Uses Node, AMD or browser globals to create a module.
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
@@ -55,9 +43,9 @@
     $.extend(this.options, options);
   };
 
-  Lightbox.prototype.imageCountLabel = function(currentImageNum, totalImages) {
-    return this.options.albumLabel.replace(/%1/g, currentImageNum).replace(/%2/g, totalImages);
-  };
+  //Lightbox.prototype.imageCountLabel = function(currentImageNum, totalImages) {
+    //return this.options.albumLabel.replace(/%1/g, currentImageNum).replace(/%2/g, totalImages);
+//  };
 
   Lightbox.prototype.init = function() {
     this.enable();
